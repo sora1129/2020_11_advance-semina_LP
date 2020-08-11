@@ -1,0 +1,336 @@
+@media screen and (max-width:1000px){
+
+ /* ----------all---------- */
+  .container {
+   width: 370px;
+ }
+
+ .sp-br {
+   display: block;
+ }
+
+ .pc-br {
+   display: none;
+ }
+
+/* ----------header---------- */
+header {
+ height: 35px;
+}
+
+header p {
+ font-size: 11px;
+ padding-top: 10px;
+ text-align: center;
+}
+/* ----------main---------- */
+/* ----------top---------- */
+.top {
+  height: 350px;
+  background-image: url(../images/bg_bnr.png),url(../images/top_bg.jpg);
+  background-color: black;
+  background-size: 100% 40px, cover;
+  background-repeat: no-repeat,no-repeat;
+  background-position: bottom, bottom center;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  color: #ffffff;
+}
+
+/* ----------top txt---------- */
+.title-txts {
+  padding-top: 80px;
+}
+
+.presenter-name {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.top h1 img {
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.top h2 {
+  font-family: serif;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.h2_sub {
+  font-size: 12px;
+}
+
+/* ----------section---------- */
+/* ----------content1---------- */
+.content1 {
+  height: auto;
+  padding: 50px 10px 0 10px;
+}
+
+/* ----------content1 txt all---------- */
+section p {
+  font-size: 11px;
+  padding-bottom: 40px;
+}
+
+.content1-title {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.big {
+  font-size: 15px;
+}
+
+/* ---------- form btn ---------- */
+.form_btn {
+  padding: 40px 0;
+}
+
+.form_btn img {
+  width: 90%;
+}
+
+/* ---------- content2 ---------- */
+.content2 {
+  height: auto;
+  padding: 50px 10px 0 10px;
+}
+
+.content2-title {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.content2 span {
+  font-size: 15px;
+}
+
+/* ---------- company ---------- */
+/* ---------- company all ---------- */
+.company {
+ height: auto;
+ padding-top: 40px;
+ padding-bottom: 0;
+}
+
+.company-info {
+  padding-bottom: 0px;
+}
+
+/* ---------- table all ---------- */
+table {
+ width: 360px;
+ border-right: 0px none;
+}
+
+tbody td {
+ display: block;
+ border-left: 0px none;
+ border-right: 0px none;
+ font-size: 15px;
+ padding: 10px;
+}
+
+tbody td p {
+  text-align: center;
+}
+
+tbody tr{
+ display: block;
+ width: 100%;
+ border-right: 5px solid #967508;
+ border-top: 0px none;
+ border-bottom: 0px none;
+ border-left: 0px none;
+}
+
+tbody th {
+ display: block;
+ width: 100%;
+ padding: 10px 0;
+ font-size: 15px;
+ border: 0px none;
+}
+
+ .td-small {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* ---------- title ---------- */
+thead p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* table top */
+#table_top {
+  text-align: center;
+}
+
+#table_top img {
+  width: 60px;
+}
+
+/* ---------- day ---------- */
+.sp_left {
+  text-align: left;
+}
+
+/* ----------time ---------- */
+.time_flex {
+  flex-direction: column;
+}
+
+.time_flex p {
+  padding-right: 0px;
+}
+
+/* ---------- price ---------- */
+.price-flex {
+  flex-direction: column;
+  text-align: center;
+}
+
+.price-left {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+
+.price-arrow {
+  display: none;
+}
+
+.arrow_sp {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.price-center p {
+  display: inline-block;
+  font-size: 20px;
+  background-color: red;
+  color: #ffffff;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.price-right {
+  margin: 10px 0 0 0;
+}
+
+.bg_red {
+  display: inline-block;
+  background-color: red;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 3px 20px;
+  border-radius: 20px;
+}
+
+.txt_red {
+  font-size: 30px;
+  color: red;
+  padding-top: 10px;
+}
+
+.price-right span {
+  font-size: 16px;
+  color: #333333;
+}
+
+/* ---------- zoom ---------- */
+.zoom-flex {
+  justify-content: center;
+}
+
+/* ----------pay----------- */
+.pay {
+ flex-direction: column;
+}
+
+/* ---------- receipt ---------- */
+.receipt p {
+  font-size: 12px;
+}
+
+/* ---------- info ---------- */
+.th-info {
+  display: block;
+  padding: 10px 0;
+}
+
+ol {
+  padding: 10px;
+}
+
+ol li p {
+  text-align: left;
+  font-size: 11px;
+}
+
+.info-big {
+  font-size: 13px;
+}
+
+#info_2 {
+  padding-top: 20px;
+}
+
+#info_2sp {
+  padding-top: 15px;
+}
+
+#number_3 {
+  margin-top: 265px;
+}
+
+#number_4 {
+  margin-top: 20px;
+}
+
+.info_4 {
+  padding-top: 25px;
+}
+
+.info_4 img {
+  height: 40px;
+}
+
+.adress{
+  font-size: 12px;
+}
+
+/* ここからfooter */
+.footer {
+  width: 100%;
+  margin: 10px auto 10px;
+  padding: 10px 0 10px 0;
+}
+
+.footer-bottom {
+ width: auto;
+ height: 80px;
+ padding: 10px 0;
+ margin: 0;
+}
+
+ul.footer-menu li {
+  float: center;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.copyright {
+ text-align: left;
+ padding-top: 5px;
+}
+
+}
